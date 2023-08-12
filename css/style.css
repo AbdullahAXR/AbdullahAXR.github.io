@@ -241,6 +241,9 @@ body{
     color: #333;
     padding: 1rem 0;
 }
+#price{
+    padding: -0.3rem 0;
+}
   .section-head{
     margin-bottom: 60px;
     text-align: center;
