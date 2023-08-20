@@ -171,6 +171,25 @@ body{
     color: #fff;
     font-size: 3rem;
 }
+#file{
+    color: #333;
+    margin: 0,auto;
+    font: 3rem/3 sans-serif;
+    text-align:center
+}
+#file2{
+    margin: 0,auto;
+}
+#button {
+    margin: 0,auto;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+input::placeholder {
+    font: 1.25rem/3 sans-serif;
+}
 
 .home .wave{
     position: absolute;
@@ -262,6 +281,19 @@ body{
     border-radius: 20px;
     margin-bottom: 30px;
     margin-top: -2rem;
+    border:5px solid rgba(0,0,0,0.07);
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 0.5s ease 0s;
+  }
+  .item-center{
+    background:#fff;
+    text-align: center;
+    padding:30px 25px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.07);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: -2rem;
+    margin-left: auto;
     border:5px solid rgba(0,0,0,0.07);
     -webkit-transition:all 0.5s ease 0s;
     transition:all 0.5s ease 0s;
@@ -372,8 +404,8 @@ body{
     margin-bottom: 60px;
     background-size: 200%;
     background-position: left;
-
   }
+
   .section-head-1 p{
     color:#333;
     font-size: 20px;
@@ -828,7 +860,7 @@ video {
 
 		.contact-form-btn
 		{
-            margin-left: 2rem;
+            margin-left: 1.8rem;
             outline: none;
             border: none;
             border-radius: 5rem;
@@ -840,6 +872,18 @@ video {
             height: 3.5rem;
             width: 15rem;
             box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
+		}
+        .contact-form-file
+		{
+            margin-left: 1.8rem;
+            outline: none;
+            border: none;
+
+            font-size: 1.5rem;
+            cursor: pointer;
+            height: 3.5rem;
+            width: 28rem;
+            /* box-shadow: 0 .2rem .5rem rgba(0,0,0,.3); */
 		}
         .contact-form-btn:hover{
             letter-spacing: .1rem;
@@ -1009,7 +1053,7 @@ video {
         .back-to-top {
             position: fixed;
             display: none;
-            background-color: #00bfff;
+            background-color: #002e5f;
             color: #ffffff;
             width: 45px;
             height: 45px;
@@ -1283,7 +1327,7 @@ video {
         .contact-form-email
 		{
             margin-left: 2rem;
-			width: 90%;
+			width: 80%;
 			height: 20px;
 			color: #000;
 			border: 1px solid #bcbcbc;
